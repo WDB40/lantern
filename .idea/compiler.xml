@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="lantern-service-registry_main" target="1.8" />
       <module name="lantern-service-registry_test" target="1.8" />
+      <module name="lantern-users_main" target="1.8" />
+      <module name="lantern-users_test" target="1.8" />
       <module name="lantern-word-sets_main" target="1.8" />
       <module name="lantern-word-sets_test" target="1.8" />
       <module name="lantern-words_main" target="1.8" />
