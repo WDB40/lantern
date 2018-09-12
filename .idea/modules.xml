@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lantern.iml" filepath="$PROJECT_DIR$/lantern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lantern-service-registry/lantern-service-registry.iml" filepath="$PROJECT_DIR$/lantern-service-registry/lantern-service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lantern-service-registry_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lantern-service-registry_main.iml" group="lantern-service-registry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lantern-service-registry_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lantern-service-registry_test.iml" group="lantern-service-registry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lantern_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lantern_main.iml" group="lantern" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lantern_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lantern_test.iml" group="lantern" />
+    </modules>
+  </component>
+</project>
