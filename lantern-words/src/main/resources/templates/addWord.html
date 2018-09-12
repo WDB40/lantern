@@ -8,10 +8,12 @@
 
 <h1>Add a New Word to Lantern</h1>
 
-<form>
+<form action="#" th:action="@{/addWord}" th:object="${word}" method = get>
     <table>
         <tr>
             <td>Word: </td>
+            <td><input type="text" th:field="*{word}"/></td>
+            <td th:if="${#fields.hasErrors('word')}" th:errors="*{word}"></td>
         </tr>
 
         <tr>
