@@ -14,16 +14,24 @@ public class WordRestController {
     @Autowired
     WordRepository wordRepository;
 
-//    See if we can get this to work with the requestParam of just the word object.
+//    Uncomment this method if we are unable to do it via passing the object
 
+//    @RequestMapping("/addWord")
+//    public Word addWord(@RequestParam String word, @RequestParam String definition,
+//                        @RequestParam String usedInSentence, @RequestParam String pronunciation){
+//
+//        Word newWord = new Word(word, definition, usedInSentence, pronunciation);
+//        wordRepository.save(newWord);
+//
+//        return newWord;
+//    }
+
+    //Testing if we can just pass the word object to the API
     @RequestMapping("/addWord")
-    public Word addWord(@RequestParam String word, @RequestParam String definition,
-                        @RequestParam String usedInSentence, @RequestParam String pronunciation){
+    public Word addWord(@RequestParam Word word){
 
-        Word newWord = new Word(word, definition, usedInSentence, pronunciation);
-        wordRepository.save(newWord);
+        wordRepository.save(word);
 
-        return newWord;
+        return word;
     }
-
 }

@@ -10,24 +10,26 @@
 
 <!--Explore being able to send the object to the API instead of each value-->
 
-<form action="#" th:action="@{/API/addWord}" th:object="${word}" method = get>
+<form action="#" th:action="@{/API/addWord}" th:object="${word}" method = post>
     <table>
         <tr>
             <td>Word: </td>
             <td><input type="text" th:field="*{word}"/></td>
-            <td th:if="${#fields.hasErrors('word')}" th:errors="*{word}"></td>
         </tr>
 
         <tr>
             <td>Definition: </td>
+            <td><input type="text" th:field="*{definition}"/></td>
         </tr>
 
         <tr>
             <td>Used In a Sentence: </td>
+            <td><input type="text" th:field="*{usedInSentence}"/></td>
         </tr>
 
         <tr>
             <td>Pronunciation: </td>
+            <td><input type="text" th:field="*{pronunciation}"/></td>
         </tr>
 
         <tr>
