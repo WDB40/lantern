@@ -8,7 +8,9 @@
 
 <h1>Add a New Word to Lantern</h1>
 
-<form action="#" th:action="@{/addWord}" th:object="${word}" method = get>
+<!--Explore being able to send the object to the API instead of each value-->
+
+<form action="#" th:action="@{/API/addWord}" th:object="${word}" method = get>
     <table>
         <tr>
             <td>Word: </td>
