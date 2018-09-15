@@ -68,4 +68,13 @@ public class WordTest {
         word.setPronunciation("high-pur");
         assertEquals("high-pur", word.getPronunciation());
     }
+
+    /* Look to make this work later. Test that we are not saving an empty value
+    @Test
+    public void setEmptyWord() {
+        Word word = new Word("Hyper", "To be excited", "I am hyper","hi-per");
+        word.setWord("");
+        assertEquals("Hyper", word.getWord());
+    }
+    */
 }
