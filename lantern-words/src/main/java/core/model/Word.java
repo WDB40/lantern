@@ -5,7 +5,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
 
 @Entity
 public class Word {
@@ -15,8 +14,7 @@ public class Word {
     private Integer Id;
 
     @NotEmpty
-    @Size(max = 25)
-    private String word;
+    private String wordName;
 
     @NotEmpty
     private String definition;
@@ -27,8 +25,8 @@ public class Word {
     @NotEmpty
     private String pronunciation;
 
-    public Word(String word, String definition, String usedInSentence, String pronunciation) {
-        this.word = word;
+    public Word(String wordName, String definition, String usedInSentence, String pronunciation) {
+        this.wordName = wordName;
         this.definition = definition;
         this.usedInSentence = usedInSentence;
         this.pronunciation = pronunciation;
@@ -38,12 +36,12 @@ public class Word {
         return Id;
     }
 
-    public String getWord() {
-        return word;
+    public String getWordName() {
+        return wordName;
     }
 
-    public void setWord(String word) {
-        this.word = word;
+    public void setWordName(String wordName) {
+        this.wordName = wordName;
     }
 
     public String getDefinition() {

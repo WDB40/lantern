@@ -9,18 +9,18 @@ public class WordTest {
 
 
     @Test
-    public void getWord() {
+    public void getWordName() {
 
         Word word = new Word("Hyper", "To be excited", "I am hyper","hi-per");
-        assertEquals("Hyper", word.getWord());
+        assertEquals("Hyper", word.getWordName());
     }
 
     @Test
-    public void setWord() {
+    public void setWordName() {
 
         Word word = new Word("Hyper", "To be excited", "I am hyper","hi-per");
-        word.setWord("After");
-        assertEquals("After", word.getWord());
+        word.setWordName("After");
+        assertEquals("After", word.getWordName());
     }
 
     @Test
@@ -73,8 +73,8 @@ public class WordTest {
     @Test
     public void setEmptyWord() {
         Word word = new Word("Hyper", "To be excited", "I am hyper","hi-per");
-        word.setWord("");
-        assertEquals("Hyper", word.getWord());
+        word.setWordName("");
+        assertEquals("Hyper", word.getWordName());
     }
     */
 }
