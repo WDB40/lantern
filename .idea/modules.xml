@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/lantern-users/lantern-users.iml" filepath="$PROJECT_DIR$/lantern-users/lantern-users.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lantern-users_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lantern-users_main.iml" group="lantern-users" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lantern-users_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lantern-users_test.iml" group="lantern-users" />
+      <module fileurl="file://$PROJECT_DIR$/lantern-view-word/lantern-view-word.iml" filepath="$PROJECT_DIR$/lantern-view-word/lantern-view-word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lantern-view-word_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lantern-view-word_main.iml" group="lantern-view-word" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lantern-view-word_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lantern-view-word_test.iml" group="lantern-view-word" />
       <module fileurl="file://$PROJECT_DIR$/lantern-word-sets/lantern-word-sets.iml" filepath="$PROJECT_DIR$/lantern-word-sets/lantern-word-sets.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lantern-word-sets_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lantern-word-sets_main.iml" group="lantern-word-sets" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lantern-word-sets_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lantern-word-sets_test.iml" group="lantern-word-sets" />
