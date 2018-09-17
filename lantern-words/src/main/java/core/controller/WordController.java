@@ -26,6 +26,7 @@ public class WordController {
 
         if(result.hasErrors()){
             return "addWord";
+
         }
         else{
             wordRepository.save(word);
