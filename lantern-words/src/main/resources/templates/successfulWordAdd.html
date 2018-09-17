@@ -6,7 +6,8 @@
 </head>
 <body>
 
-<h1 th:object="${word}" th:text="*{wordName}"></h1>
+<h1 th:object="${word}" th:text="*{wordName} + ' added to the Dictionary!'"></h1>
+<h2><a href="/addWord">Add Another Word</a></h2>
 
 </body>
 </html>
