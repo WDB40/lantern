@@ -30,7 +30,7 @@ public class WordController {
         }
         else{
             wordRepository.save(word);
-            return "Good";
+            return "successfulWordAdd";
         }
     }
 }
