@@ -20,15 +20,15 @@ public class WordRestController {
     WordRepository wordRepository;
 
     @RequestMapping("/getWordById")
-    public Optional<Word> getWordByName(@RequestParam Integer id){
+    public Word getWordByName(@RequestParam Integer id){
 
         Optional<Word> foundWord = wordRepository.findById(id);
 
         if(foundWord.isPresent()){
-            return foundWord;
+            return foundWord.get();
         }
         else{
-            return Optional.empty();
+            return null;
         }
 
     }
