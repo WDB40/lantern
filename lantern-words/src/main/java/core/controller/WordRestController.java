@@ -37,8 +37,15 @@ public class WordRestController {
     @RequestMapping("/deleteWordById")
     public String deleteWordByID(@RequestParam Integer id){
 
+        if(wordRepository.existsById(id)) {
+            wordRepository.existsById();
+            return "Successful Deletion";
+        }
+        else {
+            return "Word Not Found";
+        }
 
-        return "Successful Deletion";
+
     }
 
 }
