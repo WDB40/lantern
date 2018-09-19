@@ -25,6 +25,10 @@ public class Word {
     @NotEmpty
     private String pronunciation;
 
+    public Word(){
+
+    }
+
     public Word(String wordName, String definition, String usedInSentence, String pronunciation) {
         this.wordName = wordName;
         this.definition = definition;
