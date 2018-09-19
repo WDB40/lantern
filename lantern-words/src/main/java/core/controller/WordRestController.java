@@ -24,7 +24,7 @@ public class WordRestController {
 
         Optional<Word> foundWord = wordRepository.findById(id);
 
-
+        //Google the best way to use the Optional.ifPresent and .Else functions to fix this.
         if(foundWord.isPresent()){
             return foundWord.get();
         }
