@@ -20,7 +20,7 @@ public class WordRestController {
     WordRepository wordRepository;
 
     @RequestMapping("/getWordById")
-    public Word getWordByName(@RequestParam Integer id){
+    public Word getWordById(@RequestParam Integer id){
 
         Optional<Word> foundWord = wordRepository.findById(id);
 
@@ -32,6 +32,13 @@ public class WordRestController {
             return null;
         }
 
+    }
+
+    @RequestMapping("/deleteWordById")
+    public String deleteWordByID(@RequestParam Integer id){
+
+
+        return "Successful Deletion";
     }
 
 }
