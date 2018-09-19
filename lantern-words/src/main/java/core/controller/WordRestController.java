@@ -24,6 +24,7 @@ public class WordRestController {
 
         Optional<Word> foundWord = wordRepository.findById(id);
 
+
         if(foundWord.isPresent()){
             return foundWord.get();
         }
