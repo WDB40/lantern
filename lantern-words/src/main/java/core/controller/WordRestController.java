@@ -38,7 +38,7 @@ public class WordRestController {
     public String deleteWordByID(@RequestParam Integer id){
 
         if(wordRepository.existsById(id)) {
-            wordRepository.existsById();
+            wordRepository.existsById(id);
             return "Successful Deletion";
         }
         else {
